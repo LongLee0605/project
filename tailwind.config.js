@@ -7,5 +7,18 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/line-clamp"),
+    require("tailwind-bootstrap-grid")({
+      containerMaxWidths: {
+        sm: "540px",
+        md: "720px",
+        lg: "960px",
+        xl: "1140px",
+        "2xl": "1140px",
+      },
+      gridGutterWidth: "1.875rem",
+    }),
+  ],
 };

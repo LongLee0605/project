@@ -1,0 +1,15 @@
+.title {
+  @apply text-[30px] font-bold leading-10 lg:text-[36px] lg:leading-[48px];
+}
+.h1 {
+  @apply text-[36px] leading-[48px] lg:text-5xl  lg:leading-[68px];
+}
+.h2 {
+  @apply text-[30px] leading-10 lg:text-4xl lg:leading-[48px];
+}
+.h3 {
+  @apply text-xl lg:text-2xl;
+}
+.h4 {
+  @apply text-xl;
+}
