@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "module": "ESNext",
+      "target": "es6",
+      "baseUrl": ".",
+      "paths": {
+        "components/*": ["./components/*/index"],
+        "pages/*": ["pages/*"],
+        "*": ["node_modules/*/dist/index", "node_modules/*/index"]
+      }
+    },
+    // "include": ["components/**/*"],
+    // "include": ["./**/*"],
+    "exclude": ["node_modules", "build", "dist"]
+  }
+  
